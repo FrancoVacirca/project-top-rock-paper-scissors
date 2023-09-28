@@ -8,7 +8,7 @@ let playerPoints = (0);
 let computerPoints = (0);
 
 function playGame() {
-    const userChoice = prompt("Choose your weapon: Rock, Paper, Scissors").toLowerCase();
+    //const userChoice = prompt("Choose your weapon: Rock, Paper, Scissors").toLowerCase();
     const computerChoice = getComputerChoice();
 
     console.log(`You choose: ${userChoice}`);

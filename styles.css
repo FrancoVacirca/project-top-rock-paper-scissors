@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #F5F5F5;
+    color: #3498db;
+    font-size: 25px;
+}
+
+#title {
+    text-align: center;
+    padding: 24px;
+}
+
+#rules {
+    text-align: center;
+    padding: 12px;
+}
+
+#icons {
+    display: flex;
+    justify-content: center;
+}
+
+.human-emoji {
+    padding-right: 35px;
+}
+
+.robot-emoji {
+    padding-left: 35px;
+}
+
+#counter {
+    text-align: center;
+}
+
+#user-score {
+    padding-right: 5px;
+}
+
+#computer-score {
+    padding-left: 5px;
+}
+
+#round-result {
+    text-align: center;
+}
+
+#weapons-txt {
+    display: flex;
+    justify-content: center;
+}
+
+#choices {
+    display: flex;
+    justify-content: center;
+}
