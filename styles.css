@@ -51,7 +51,21 @@ body {
     justify-content: center;
 }
 
-#choices {
+#container-choices {
     display: flex;
     justify-content: center;
 }
+
+.choice {
+    display: flex;
+    margin: 20px;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: #cbddff;
+    cursor: pointer;
+}
+
+.choice:hover {
+    transform: scale(1.1);
+}  
